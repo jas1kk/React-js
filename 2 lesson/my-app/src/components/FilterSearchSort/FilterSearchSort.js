@@ -13,7 +13,6 @@ function FilterSearchSort() {
   const handleSortByChange = (event) => {
     const newSortBy = event.target.value;
     if (newSortBy === sortBy) {
-      // If clicked on the same column, toggle the sort order
       setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
     } else {
       // Otherwise, sort by the new column ascending
@@ -27,14 +26,12 @@ function FilterSearchSort() {
   };
 
   const filteredShops = shops.filter((shop) => {
-    // Filter by search term
     if (searchTerm) {
       const searchRegex = new RegExp(searchTerm, 'i');
       if (!searchRegex.test(shop.name)) {
         return false;
       }
     }
-    // Filter by "special" property
     if (showSpecialOnly && !shop.special) {
       return false;
     }
