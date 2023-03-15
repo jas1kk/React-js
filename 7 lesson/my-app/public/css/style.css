@@ -1,0 +1,26 @@
+*{
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#head{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#general{
+    color: black;
+    position: relative;
+    right: 40px;
+}
+
+#login{
+    color: black;
+}
+
+#help{
+    color: black;
+    position: relative;
+    left: 40px;
+}
