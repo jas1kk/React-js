@@ -1,0 +1,23 @@
+*{
+    margin: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.del{
+    cursor: pointer;
+}
+
+.edit{
+    cursor: pointer;
+}
+
+.table{
+}
+
+.tr{
+
+}
+
+.products-inf{
+}
