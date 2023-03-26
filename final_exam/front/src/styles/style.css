@@ -1,0 +1,14 @@
+*{
+    margin: 0 auto;
+    text-align: center;
+    border-radius: border-box;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navhead{
+    width: 400px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
