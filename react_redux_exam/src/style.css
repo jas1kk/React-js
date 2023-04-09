@@ -1,0 +1,152 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background-color: rgb(251, 246, 240);
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+input {
+    margin: 8px;
+    padding: 3px 5px;
+    border-radius: 7px;
+    color: rgb(26, 189, 110);
+}
+
+button {
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+
+.btn-mini{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    margin: 0 auto;
+}
+
+.add-product-block{
+    text-align: center;
+}
+
+.table-block{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.edit-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 90%;
+    font-size: 25px;
+  }
+  
+  th, td {
+    border: 1px solid #afafaf;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+.block-products {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.dengi-main{
+    margin: 0 auto;
+}
+
+.dengi{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.df {
+    display: flex;
+}
+
+.fd-c {
+    flex-direction: column;
+}
+
+.jc-sa {
+    justify-content: space-around;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30%;
+    width: 700px;
+}
+
+.header-page {
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    background-color: #007bff;
+}
+
+.many{
+    font-size: 40px;
+    text-align: center; 
+    color: #000000;
+}
+
+  .chart-block{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+  }
+  
