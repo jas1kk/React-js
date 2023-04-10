@@ -137,11 +137,11 @@ const PurchasePage = () => {
               </th>
             </tr>
 
-          ))};
+          ))}
         </tbody>
       </table>
     </div>
-  );
-};
+  )
+}
 
 export default PurchasePage;
